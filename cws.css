@@ -1,0 +1,9 @@
+ol {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+ol li {
+    margin-right: 10px; /* 항목 간 간격 조정 */
+}
