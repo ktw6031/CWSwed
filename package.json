@@ -7,9 +7,6 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build:repo1": "npx env-cmd -f .env.repo_1 npm run deploy",
-    "build:repo2": "npx env-cmd -f .env.repo_2 npm run deploy",
     "preview": "vite preview"
   },
   "homepage": "$REACT_APP_GH_PAGES_URL",
