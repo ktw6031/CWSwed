@@ -1,0 +1,29 @@
+{
+  "name": "cwswed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build:repo1": "npx env-cmd -f .env.repo_1 npm run deploy",
+    "build:repo2": "npx env-cmd -f .env.repo_2 npm run deploy",
+    "preview": "vite preview"
+  },
+  "homepage": "$REACT_APP_GH_PAGES_URL",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "env-cmd": "^10.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
