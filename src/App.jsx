@@ -6,10 +6,11 @@ function App() {
            <div className='sect sect_1'>
                <div className='video_con'>
                    <video autoPlay muted loop>
-                       <source src="./video/2802271-hd_1920_1080_30fps.mp4" type="video/mp4" />
-                   </video>
-               </div>
-               <div className='text_con'>
+                       <source src={`${import.meta.env.BASE_URL}video/2802271-hd_1920_1080_30fps.mp4`}
+                               type="video/mp4" />
+                   </video >
+               </div >
+               <div className='text_con' >
                    <div className='logo'>
                        로고
                    </div>
