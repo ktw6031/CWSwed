@@ -6,7 +6,7 @@ function App() {
            <div className='sect sect_1'>
                <div className='video_con'>
                    <video autoPlay muted loop>
-                       <source src="/video/2802271-hd_1920_1080_30fps.mp4" type="video/mp4" />
+                       <source src="./video/2802271-hd_1920_1080_30fps.mp4" type="video/mp4" />
                    </video>
                </div>
                <div className='text_con'>
