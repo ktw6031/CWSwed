@@ -10,7 +10,14 @@ export default defineConfig({
     },
     base: '',
     build: {
-        outDir: 'docs'  // 빌드 출력 디렉토리를 'docs'로 설정
+        outDir: 'docs',
+        rollupOptions: {
+            output: {
+                entryFileNames: 'assets/[name].js',
+                chunkFileNames: 'assets/[name].js',
+                assetFileNames: 'assets/[name].[ext]'
+            }
+        }
     },
     css: {
         preprocessorOptions: {
