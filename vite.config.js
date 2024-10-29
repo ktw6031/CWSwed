@@ -8,6 +8,7 @@ export default defineConfig({
             usePolling: true,    // 파일 변경 감지를 위한 폴링 활성화
         },
     },
+    base: '/CWSwed/',
     build: {
         outDir: 'docs'  // 빌드 출력 디렉토리를 'docs'로 설정
     },
